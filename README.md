@@ -40,7 +40,7 @@ The attributes of this data set include:
 <hr>
 
 ## Table of Contents: 
-1. [Load the Dataset](https://github.com/arezazadeh/data_analysis_projects#load)
+1. [Dataset](https://github.com/arezazadeh/data_analysis_projects#dataset)
 2. Investigate the dataset for missing or problematic data.
 3. Consolidating and Dropping Columns 
     - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance`
@@ -55,12 +55,18 @@ The attributes of this data set include:
 
 <hr>
 
-### Load the Dataset
+### Dataset
 ```python
 import pandas as pd 
 
 data = pd.read_csv('data/coupons.csv')
 pd.set_option('display.max_columns', 100)
 ```
+<hr>
+<br>
 
+### Looking at the overall Coupon acceptance
+<br>
+
+<img src="images/total_coupons.png" width=550>
 
