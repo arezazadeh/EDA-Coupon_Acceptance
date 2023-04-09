@@ -39,7 +39,7 @@ The attributes of this data set include:
 
 <hr>
 
-## Table of Context: 
+## Table of Content: 
 
 1. Investigate the dataset for missing or problematic data.
 2. Consolidating and Dropping Columns 
