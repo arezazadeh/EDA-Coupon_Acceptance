@@ -39,22 +39,28 @@ The attributes of this data set include:
 
 <hr>
 
-## Table of Content: 
-
-1. Investigate the dataset for missing or problematic data.
-2. Consolidating and Dropping Columns 
+## Table of Contents: 
+1. [Load the Dataset](https://github.com/arezazadeh/data_analysis_projects#load)
+2. Investigate the dataset for missing or problematic data.
+3. Consolidating and Dropping Columns 
     - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance`
     - `direction_same`, `direction_opp` columns are consolicated to one column `dir`
     - Rename values in `temperature` column to low medium and high in a new column `temp_cat`
 
-3. What proportion of the total observations chose to accept the coupon? 
-4. bar plot to visualize the `coupon` column.
+4. What proportion of the total observations chose to accept the coupon? 
+5. bar plot to visualize the `coupon` column.
 <br>
 
 <h3>Pending Completion</h3>
 
 <hr>
 
+### Load the Dataset
+```python
+import pandas as pd 
 
+data = pd.read_csv('data/coupons.csv')
+pd.set_option('display.max_columns', 100)
+```
 
 
