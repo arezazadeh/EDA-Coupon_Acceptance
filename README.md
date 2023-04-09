@@ -43,9 +43,9 @@ The attributes of this data set include:
 
 1. Investigate the dataset for missing or problematic data.
 2. Consolidating and Dropping Columns 
-    - "toCoupon_GEQ5min", "toCoupon_GEQ15min", "toCoupon_GEQ25min" are consolicated to one column "distance"
-    - "direction_same", "direction_opp" columns are consolicated to one column "dir"
-    - Rename values in temperature column to low medium and high in a new column "temp_cat"
+    - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance`
+    - `direction_same`, `direction_opp` columns are consolicated to one column `dir`
+    - Rename values in `temperature` column to low medium and high in a new column `temp_cat`
 
 3. What proportion of the total observations chose to accept the coupon? 
 4. bar plot to visualize the `coupon` column.
