@@ -41,12 +41,8 @@ The attributes of this data set include:
 
 ## Table of Contents: 
 1. [Dataset](https://github.com/arezazadeh/data_analysis_projects#dataset)
-2. Investigate the dataset for missing or problematic data.
-3. Consolidating and Dropping Columns 
-    - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance`
-    - `direction_same`, `direction_opp` columns are consolicated to one column `dir`
-    - Rename values in `temperature` column to low medium and high in a new column `temp_cat`
-
+2. [Missing_Data](https://github.com/arezazadeh/data_analysis_projects#missing_data)
+3. [Consolidating](https://github.com/arezazadeh/data_analysis_projects#consolidating)
 4. What proportion of the total observations chose to accept the coupon? 
 5. bar plot to visualize the `coupon` column.
 <br>
@@ -68,5 +64,17 @@ pd.set_option('display.max_columns', 100)
 ### Looking at the overall Coupon acceptance
 <br>
 
+<li> as shown below, around 7000 drivers have accepted a coupon and around 5000 drivers have rejected it.</li>
+<br>
+
 <img src="images/total_coupons.png" width=550>
 
+
+
+### Consolidating
+
+* below columns have been consolicated:
+<br>
+    - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance`
+    - `direction_same`, `direction_opp` columns are consolicated to one column `dir`
+    - Rename values in `temperature` column to low medium and high in a new column `temp_cat`
