@@ -73,8 +73,7 @@ pd.set_option('display.max_columns', 100)
 
 ### Consolidating
 
-* below columns have been consolicated:
-<br>
-    - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance`
-    - `direction_same`, `direction_opp` columns are consolicated to one column `dir`
-    - Rename values in `temperature` column to low medium and high in a new column `temp_cat`
+* below columns have been consolicated:<br>
+    - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` are consolicated to one column `distance` <br>
+    - `direction_same`, `direction_opp` columns are consolicated to one column `dir` <br>
+    - Rename values in `temperature` column to low medium and high in a new column `temp_cat` <br>
