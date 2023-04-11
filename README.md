@@ -40,19 +40,23 @@ The attributes of this data set include:
 <hr>
 
 ## Table of Contents: 
-1. [Dataset](https://github.com/arezazadeh/data_analysis_projects#dataset)
-2. [Missing_Data](https://github.com/arezazadeh/data_analysis_projects#missing_data)
-3. [Consolidating](https://github.com/arezazadeh/data_analysis_projects#consolidating)
-4. [Coupon_Acceptance](https://github.com/arezazadeh/data_analysis_projects#coupon_acceptance)
-4. What proportion of the total observations chose to accept the coupon? 
-5. bar plot to visualize the `coupon` column.
+1. [Loading The Dataset](https://github.com/arezazadeh/data_analysis_projects#Loading-The-Dataset)
+2. [Missing And Duplicated Data](https://github.com/arezazadeh/data_analysis_projects#missing-and-duplicated-data)
+3. [Consolidating Redundant Columns](https://github.com/arezazadeh/data_analysis_projects#Consolidating-Redundant-Columns)
+4. [Total Observation of Coupon Acceptance](https://github.com/arezazadeh/data_analysis_projects#Total-Observation-of-Coupon-Acceptance)
+5. [Visualizing The Coupon Column](https://github.com/arezazadeh/data_analysis_projects#Visualizing-The-Coupon-Column)
+6. foot 
+7. foot
+8. foot 
+- bunch 
+- daylight come and we want go home 
 <br>
 
 <h3>Pending Completion</h3>
 
 <hr>
 
-### Dataset
+### Loading The Dataset
 ```python
 import pandas as pd 
 
@@ -62,7 +66,7 @@ pd.set_option('display.max_columns', 100)
 <hr>
 <br>
 
-### Missing_Data
+### Missing And Duplicated Data
 
 ```python
 destination              0.000000
@@ -92,7 +96,7 @@ direction_same           0.000000
 direction_opp            0.000000
 Y                        0.000000
 ```
-* The Car column is 99% Null, and it seems like it doesnt have any impact to the overall of the dataset. Hence dropping the entire column
+* The `car` column is 99% Null, and it seems like it doesnt have any impact to the overall of the dataset. Hence dropping the entire column
 * The columns `Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, Restaurant20To50` have some missing values, I have decided to fill them with `never` 
 * There are also 74 duplicated row, which are dropped 
 ```
@@ -101,7 +105,7 @@ True        74
 ```
 <hr>
 
-### Consolidating
+### Consolidating Redundant Columns
 
 * below columns have been consolicated:
     - New column is created based on the `Y` column, `acceptance`
@@ -119,12 +123,26 @@ True        74
     - `direction_same`, `direction_opp` columns are consolicated to one column `dir` <br>
     - Rename values in `temperature` column to low medium and high in a new column `temp_cat` <br>
 
-### Coupon_Acceptance - Looking at the overall Coupon acceptance
+<hr>
+
+### Looking at the overall Coupon Acceptance
 <br>
 
 <li> as shown below, around 56% of the  drivers have accepted a coupon and around 43% of the drivers have rejected it.</li>
 <br>
-
+<div style="text-align:center">
 <img src="images/total_observation_coupon.png" width=550>
+</div>
+
+<hr>
+
+### Visualizing The Coupon Column
+
+* The overall distribution of coupons among the drivers. as indicated below, 32% of the coupons were Coffee House Coupons, and 22% Cheap Restaurants. 
+<br>
+<br>
+<div style="text-align:center">
+<img src="images/all_coupons.png" width=550>
+</div>
 
 
