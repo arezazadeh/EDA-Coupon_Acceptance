@@ -125,7 +125,7 @@ True        74
 
 <hr>
 
-### Looking at the overall Coupon Acceptance
+### Total Observation of Coupon Acceptance
 <br>
 
 <li> as shown below, around 56% of the  drivers have accepted a coupon and around 43% of the drivers have rejected it.</li>
