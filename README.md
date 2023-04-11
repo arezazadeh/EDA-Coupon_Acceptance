@@ -43,7 +43,7 @@ The attributes of this data set include:
 1. [Dataset](https://github.com/arezazadeh/data_analysis_projects#dataset)
 2. [Missing_Data](https://github.com/arezazadeh/data_analysis_projects#missing_data)
 3. [Consolidating](https://github.com/arezazadeh/data_analysis_projects#consolidating)
-4. [Overall](https://github.com/arezazadeh/data_analysis_projects#overall)
+4. [Coupon_Acceptance](https://github.com/arezazadeh/data_analysis_projects#coupon_acceptance)
 4. What proportion of the total observations chose to accept the coupon? 
 5. bar plot to visualize the `coupon` column.
 <br>
@@ -119,7 +119,7 @@ True        74
     - `direction_same`, `direction_opp` columns are consolicated to one column `dir` <br>
     - Rename values in `temperature` column to low medium and high in a new column `temp_cat` <br>
 
-### Looking at the overall Coupon acceptance
+### Coupon_Acceptance - Looking at the overall Coupon acceptance
 <br>
 
 <li> as shown below, around 56% of the  drivers have accepted a coupon and around 43% of the drivers have rejected it.</li>
