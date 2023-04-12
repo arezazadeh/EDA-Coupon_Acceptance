@@ -40,14 +40,16 @@ The attributes of this data set include:
 <hr>
 
 ## Table of Contents: 
-1. [Loading The Dataset](https://github.com/arezazadeh/data_analysis_projects#Loading-The-Dataset)
-2. [Missing And Duplicated Data](https://github.com/arezazadeh/data_analysis_projects#missing-and-duplicated-data)
-3. [Consolidating Redundant Columns](https://github.com/arezazadeh/data_analysis_projects#Consolidating-Redundant-Columns)
-4. [Total Observation of Coupon Acceptance](https://github.com/arezazadeh/data_analysis_projects#Total-Observation-of-Coupon-Acceptance)
-5. [Visualizing The Coupon Column](https://github.com/arezazadeh/data_analysis_projects#Visualizing-The-Coupon-Column)
-6. [Analyzing Bar Visits And Coupon's Acceptance Rate](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Bar-Visits-And-Coupon's-Acceptance-Rate)
-7. [Bar Coupon Hypothesize](https://github.com/arezazadeh/data_analysis_projects#Bar-Coupon-Hypothesize)
-8. [Independent Investigation](https://github.com/arezazadeh/data_analysis_projects#Independent-Investigation)
+- [Loading The Dataset](https://github.com/arezazadeh/data_analysis_projects#Loading-The-Dataset)
+- [Missing And Duplicated Data](https://github.com/arezazadeh/data_analysis_projects#missing-and-duplicated-data)
+- [Consolidating Redundant Columns](https://github.com/arezazadeh/data_analysis_projects#Consolidating-Redundant-Columns)
+- [Total Observation of Coupon Acceptance](https://github.com/arezazadeh/data_analysis_projects#Total-Observation-of-Coupon-Acceptance)
+- [Visualizing The Coupon Column](https://github.com/arezazadeh/data_analysis_projects#Visualizing-The-Coupon-Column)
+- [Analyzing Bar Visits And Coupon's Acceptance Rate](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Bar-Visits-And-Coupon's-Acceptance-Rate)
+- [Bar Coupon Hypothesize](https://github.com/arezazadeh/data_analysis_projects#Bar-Coupon-Hypothesize)
+- [Independent Investigation](https://github.com/arezazadeh/data_analysis_projects#Independent-Investigation)
+- [Acceptance Rate For Different Coupons](https://github.com/arezazadeh/data_analysis_projects#Acceptance-Rate-For-Different-Coupons)
+- [Analyzing Carry Out And Take Away Coupon](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Carry-Out-And-Take-Away-Coupon)
 
 <br>
 
@@ -128,7 +130,7 @@ True        74
 <li> as shown below, around 56% of the  drivers have accepted a coupon and around 43% of the drivers have rejected it.</li>
 <br>
 <div style="text-align:center">
-<img src="images/total_observation_coupon.png" width=550>
+<img src="images/total_observation_coupon.png" width=600>
 </div>
 
 <hr>
@@ -139,7 +141,7 @@ True        74
 <br>
 <br>
 <div style="text-align:center">
-    <img src="images/all_coupons.png" width=550>
+    <img src="images/all_coupons.png" width=600>
 </div>
 
 <hr>
@@ -149,7 +151,7 @@ True        74
 1. Next, we will be looking at the drivers who visited a Bar 3 or fewer times a month and comparing them with other drivers who visited more or never. 
 
 <div style="text-align:center">
-    <img src="images/bar_visit_less_than_3.png" width=550>
+    <img src="images/bar_visit_less_than_3.png" width=600>
 </div>
 
 As you can see in the above plot, drivers who went to bar less than 3 times a month, their acceptance and rejections are almost the same. But the drivers who went to Bar more than 3 times a month have 70% acceptance rate. 
@@ -157,13 +159,13 @@ As you can see in the above plot, drivers who went to bar less than 3 times a mo
 2. Analyzing Bar visits for drivers who are 25 years or older and go Bar more than once a month. 
 
 <div style="text-align:center">
-    <img src="images/bar_visit_25_more_than_once.png" width=550>
+    <img src="images/bar_visit_25_more_than_once.png" width=600>
 </div>
 
 3. Lets look at  the drivers who their occupations are not Farming, Fishing or Forestry and visit Bar more than once a month
 
 <div style="text-align:center">
-    <img src="images/occupation_bar_visits.png" width=550>
+    <img src="images/occupation_bar_visits.png" width=600>
 </div>
 
 
@@ -174,7 +176,7 @@ As you can see in the above plot, drivers who went to bar less than 3 times a mo
 As you below, in both cases the acceptance rate is around 70%. 
 
 <div style="text-align:center">
-    <img src="images/two_types_bar.png" width=550>
+    <img src="images/two_types_bar.png" width=600>
 </div>
 
 <hr>
@@ -182,6 +184,26 @@ As you below, in both cases the acceptance rate is around 70%.
 ## <p style="font-weight:bold">Bar Coupon Hypothesis</p>
 
 <p style="font-weight: 420 ;font-size:15px">Based on we have seen so far, most of the acceptance rates are from drivers who go to Bar more than once and have no Kids as their passangers.</p>
+
+<hr>
+<br>
+<br>
+
+# Independent Investigation
+
+## <p style="font-weight:bold">Acceptance Rate For Different Coupons</p>
+
+Lets look at the acceptance rate for each of the coupon's category. We saw the majority of coupon distribution belong to coffee house. now lets see the ratio of acceptance rate for coffee house coupons. 
+
+<div style="text-align:center">
+    <img src="images/coupons_acceptance_rate.png" width=600>
+</div>
+
+As seen above, Coffee House Coupons are at 50%-50% acceptance rate, unlike Carry outs and Take Away and Cheap restaurants. Let's start analyzing the Carry out and Take away coupon and find out the difference between accepted and rejected. 
+
+<hr>
+
+## <p style="font-weight:bold">Analyzing Carry Out And Take Away Coupon</p>
 
 
 
