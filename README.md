@@ -45,7 +45,7 @@ The attributes of this data set include:
 3. [Consolidating Redundant Columns](https://github.com/arezazadeh/data_analysis_projects#Consolidating-Redundant-Columns)
 4. [Total Observation of Coupon Acceptance](https://github.com/arezazadeh/data_analysis_projects#Total-Observation-of-Coupon-Acceptance)
 5. [Visualizing The Coupon Column](https://github.com/arezazadeh/data_analysis_projects#Visualizing-The-Coupon-Column)
-6. [Analyzing Bar Visits And Coupon's Acceptance Rate](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Bar-Visits-And-Coupon's-Acceptance-Rate)
+6. [Analyzing Bar Visits And Coupon's Acceptance Rate](https://github.com/arezazadeh/data_analysis_projects#analyzing-bar-visits-and-coupons-acceptance-rate)
 7. [Bar Coupon Hypothesis](https://github.com/arezazadeh/data_analysis_projects#Bar-Coupon-Hypothesis)
 8. [Independent Investigation](https://github.com/arezazadeh/data_analysis_projects#Independent-Investigation)
 
