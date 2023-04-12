@@ -179,7 +179,7 @@ As you below, in both cases the acceptance rate is around 70%.
 
 <hr>
 
-## <p style="font-weight:bold">Bar Coupon Hypothesize</p>
+## <p style="font-weight:bold">Bar Coupon Hypothesis</p>
 
 <p style="font-weight: 420 ;font-size:15px">Based on we have seen so far, most of the acceptance rates are from drivers who go to Bar more than once and have no Kids as their passangers.</p>
 
