@@ -205,13 +205,32 @@ As seen above, Coffee House Coupons are at 50%-50% acceptance rate, unlike Carry
 
 ## <p style="font-weight:bold">Analyzing Carry Out And Take Away Coupon</p>
 
+1. Checking Carry out and Take Away coupon's acceptance rate based on Income
 
 
+<div style="text-align:center">
+    <img src="images/carryouts_income.png" width=600>
+</div>
 
 
+as we see above, there is not much difference between Income below 50k or above 50k on accepting Take Away coupons. But we will dive deeper into each category and see the different charactristics of each coupon acceptance 
+
+2. Checking the Take Away coupons with Marital Status and Kid(s) as passanger 
+
+<div style="text-align:center">
+    <img src="images/takeaways_marital_status.png" width=1000>
+</div>
+
+As indicated above, more coupons were accepted by drivers who are Married or Single that are Alone. But most of coupon accetance belong to Single with No Passanger
+
+3. Checking the Take Away Coupons with Marital Status and Kid(s) as Passanger with Direction of the coupon 
 
 
+<div style="text-align:center">
+    <img src="images/marital_status_direction.png" width=1000>
+</div>
 
+As the plot above shows, Drivers who are single and Alone are willing to go to oposite direction for take away food vs. Married drivers. although the difference is not much. 
 
 
 
