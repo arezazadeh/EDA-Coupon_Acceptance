@@ -230,7 +230,19 @@ As indicated above, more coupons were accepted by drivers who are Married or Sin
     <img src="images/marital_status_direction.png" width=1000>
 </div>
 
-As the plot above shows, Drivers who are single and Alone are willing to go to oposite direction for take away food vs. Married drivers. although the difference is not much. 
+As the plot above shows, Drivers who are single and Alone are willing to go to oposite direction for take away food vs. Married drivers.
+
+Next lets add weather condition to this mix and find out how many single or married are willing to go to the oposite direction 
+
+4. Checking the Take Away Coupons with Marital Status and Kid(s) as Passanger with Direction of the coupon and Weather condition
 
 
+<div style="text-align:center">
+    <img src="images/weather_take_away.png" width=1000>
+</div>
 
+<h2>Conclusion on Take Away Coupon</h2>
+
+Above shows that Married drivers without any passanger who are going on the same direction as the coupon, and in a sunny day, are more likely to accept the coupon for Take Away. But on the other hand we can see the Single drivers are also alone in the car in a sunny day are willing to go to oposite direction
+
+We can also dig deeper and add other variables to our analysis and see what other factors causes drivers to accept or reject the coupon. For instance, we can also include time of the day, or destination which i am sure will have direct impact on acceptance rate. 
