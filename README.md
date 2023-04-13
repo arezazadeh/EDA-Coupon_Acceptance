@@ -50,6 +50,7 @@ The attributes of this data set include:
 - [Independent Investigation](https://github.com/arezazadeh/data_analysis_projects#Independent-Investigation)
 - [Acceptance Rate For Different Coupons](https://github.com/arezazadeh/data_analysis_projects#Acceptance-Rate-For-Different-Coupons)
 - [Analyzing Carry Out And Take Away Coupon](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Carry-Out-And-Take-Away-Coupon)
+- [Conclusion on Take Away Coupon](https://github.com/arezazadeh/data_analysis_projects#Conclusion-on-Take-Away-Coupon)
 
 <br>
 
