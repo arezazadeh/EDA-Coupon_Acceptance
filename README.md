@@ -40,17 +40,17 @@ The attributes of this data set include:
 <hr>
 
 ## Table of Contents: 
-- [Loading The Dataset](https://github.com/arezazadeh/data_analysis_projects#Loading-The-Dataset)
-- [Missing And Duplicated Data](https://github.com/arezazadeh/data_analysis_projects#missing-and-duplicated-data)
-- [Consolidating Redundant Columns](https://github.com/arezazadeh/data_analysis_projects#Consolidating-Redundant-Columns)
-- [Total Observation of Coupon Acceptance](https://github.com/arezazadeh/data_analysis_projects#Total-Observation-of-Coupon-Acceptance)
-- [Visualizing The Coupon Column](https://github.com/arezazadeh/data_analysis_projects#Visualizing-The-Coupon-Column)
-- [Analyzing Bar Visits And Coupon's Acceptance Rate](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Bar-Visits-And-Coupon's-Acceptance-Rate)
-- [Bar Coupon Hypothesize](https://github.com/arezazadeh/data_analysis_projects#Bar-Coupon-Hypothesize)
-- [Independent Investigation](https://github.com/arezazadeh/data_analysis_projects#Independent-Investigation)
-- [Acceptance Rate For Different Coupons](https://github.com/arezazadeh/data_analysis_projects#Acceptance-Rate-For-Different-Coupons)
-- [Analyzing Carry Out And Take Away Coupon](https://github.com/arezazadeh/data_analysis_projects#Analyzing-Carry-Out-And-Take-Away-Coupon)
-- [Conclusion on Take Away Coupon](https://github.com/arezazadeh/data_analysis_projects#Conclusion-on-Take-Away-Coupon)
+- [Loading The Dataset](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Loading-The-Dataset)
+- [Missing And Duplicated Data](https://github.com/arezazadeh/EDA-Coupon_Acceptance#missing-and-duplicated-data)
+- [Consolidating Redundant Columns](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Consolidating-Redundant-Columns)
+- [Total Observation of Coupon Acceptance](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Total-Observation-of-Coupon-Acceptance)
+- [Visualizing The Coupon Column](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Visualizing-The-Coupon-Column)
+- [Analyzing Bar Visits And Coupon's Acceptance Rate](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Analyzing-Bar-Visits-And-Coupon's-Acceptance-Rate)
+- [Bar Coupon Hypothesize](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Bar-Coupon-Hypothesize)
+- [Independent Investigation](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Independent-Investigation)
+- [Acceptance Rate For Different Coupons](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Acceptance-Rate-For-Different-Coupons)
+- [Analyzing Carry Out And Take Away Coupon](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Analyzing-Carry-Out-And-Take-Away-Coupon)
+- [Conclusion on Take Away Coupon](https://github.com/arezazadeh/EDA-Coupon_Acceptance#Conclusion-on-Take-Away-Coupon)
 
 <br>
 
